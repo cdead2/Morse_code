@@ -53,5 +53,4 @@ class Banner:
                     print(' '*n+'*')
                 b-=1
 
-           
-Banner()
+
