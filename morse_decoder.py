@@ -34,6 +34,8 @@ try:
     if choose=='en':
         text=' '.join(text)
         text=list (text)
+        Banner().banner()
+        Banner.Triangle()
         print (huepy.yellow('Your morse encryption : '+' '.join(morse_encoder(text))))
     elif choose=='de':
         text=sys.argv[2::]
@@ -47,5 +49,5 @@ try:
 except:
     OOb=Banner()
     OOb.banner()
-    OOb.Traingle()
+    OOb.Triangle()
     OOb._help()
