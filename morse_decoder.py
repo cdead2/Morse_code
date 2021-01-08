@@ -39,6 +39,8 @@ try:
         print (huepy.yellow('Your morse encryption : '+' '.join(morse_encoder(text))))
     elif choose=='de':
         text=sys.argv[2::]
+        Banner().banner()
+        Banner().Triangle()
         print(huepy.green('Your decrypted text : '+' '.join(morse_decoder(text,morse))).lower())
     else:
         OOb=Banner()
