@@ -33,7 +33,7 @@ class Banner:
 
     """
 )
-    def Traingle(self):
+    def Triangle(self):
         n,m,b,v=6,0,6,7
         for _ in range(1):
             for i in range(1,n):
